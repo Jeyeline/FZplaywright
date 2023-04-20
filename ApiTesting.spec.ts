@@ -1,7 +1,11 @@
 import {test,expect} from "@playwright/test"
 
-/*test.only("Post Api", async ({request, baseURL}) => {
+test.only("Post Api", async ({request, baseURL}) => {
     const response =await request.post('${baseURL}', {
+         headers:{
+            "BusinessUnit":"MMFSL-Quiklyz"
+          
+        },
          data:
          {
             "DataSets": [
@@ -629,10 +633,10 @@ import {test,expect} from "@playwright/test"
     expect(response.status()).toBe(200);
     //expect(response.status()).toBeTruthy();
    console.log(await response.json());
- })*/
+ })
 
  
-test("Get Api", async ({request, baseURL}) => {
+/*test("Get Api", async ({request, baseURL}) => {
     const response1 =await request.get('${{baseURL}')
 //console.log(await response1.json)\
 expect(response1.status()).toBe(200);
@@ -729,5 +733,5 @@ test.only("Post4", async ({page,request}) => {
         },
     })
     console.log( await response4.json())
-})
+})*/
     
