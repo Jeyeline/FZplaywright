@@ -1,0 +1,1556 @@
+{
+  "config": {
+    "configFile": "C:\\Playwright\\playwright.config.ts",
+    "rootDir": "C:/Playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ],
+      [
+        "C:\\Playwright\\node_modules\\experimental-allure-playwright\\dist\\index.js",
+        null
+      ],
+      [
+        "C:\\Playwright\\node_modules\\allure-playwright\\dist\\index.js",
+        {
+          "environmentInfo": {
+            "NODE_VERSION": "v18.14.0",
+            "OS": "win32"
+          }
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(m)[jt]s?(x)"
+        ],
+        "timeout": 400000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.33.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "ADrequestManual\\EDPMSnegative\\Test01.spec.ts",
+      "file": "ADrequestManual/EDPMSnegative/Test01.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Check that the user receives the appropriate validation messages when entering invalid data.",
+          "file": "ADrequestManual/EDPMSnegative/Test01.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify that the proper validation message is given for the invalid login credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 55640,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T10:57:51.590Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-e9a76-sage-is-given-for-the-invalid-login-credentials-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-e9a76-sage-is-given-for-the-invalid-login-credentials-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-e9a76-sage-is-given-for-the-invalid-login-credentials-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41694474d03394843934-714a93a66237a2d02f24",
+              "file": "ADrequestManual/EDPMSnegative/Test01.spec.ts",
+              "line": 18,
+              "column": 9
+            },
+            {
+              "title": "Verify that the user could login to the portal with valid login credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 54226,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T10:58:50.610Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-a60a4-ogin-to-the-portal-with-valid-login-credentials-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-a60a4-ogin-to-the-portal-with-valid-login-credentials-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-a60a4-ogin-to-the-portal-with-valid-login-credentials-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41694474d03394843934-68d8819f65cd5bd16af0",
+              "file": "ADrequestManual/EDPMSnegative/Test01.spec.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Verify that the user notifies with the proper validation when the request type is not selected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 66530,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T10:59:44.850Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-2826e-alidation-when-the-request-type-is-not-selected-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-2826e-alidation-when-the-request-type-is-not-selected-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-2826e-alidation-when-the-request-type-is-not-selected-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41694474d03394843934-94d5f85fcbd5662e7db2",
+              "file": "ADrequestManual/EDPMSnegative/Test01.spec.ts",
+              "line": 41,
+              "column": 9
+            },
+            {
+              "title": "Verify that the user is notified when they directly go to attachment section without completing the general tab",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 71390,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:00:51.392Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-d280c-ment-section-without-completing-the-general-tab-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-d280c-ment-section-without-completing-the-general-tab-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test01-Check-tha-d280c-ment-section-without-completing-the-general-tab-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41694474d03394843934-90ddb9502b3ef9ed7e86",
+              "file": "ADrequestManual/EDPMSnegative/Test01.spec.ts",
+              "line": 64,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ADrequestManual\\EDPMSnegative\\Test02.spec.ts",
+      "file": "ADrequestManual/EDPMSnegative/Test02.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Check that the user receives the appropriate validation messages when entering invalid data.",
+          "file": "ADrequestManual/EDPMSnegative/Test02.spec.ts",
+          "line": 13,
+          "column": 6,
+          "specs": [
+            {
+              "title": "verify that the user is notified when the shipping bill number is not provided with 7 digit value for the export type- Goods",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 99980,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T10:57:51.586Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-ff03b-d-with-7-digit-value-for-the-export-type--Goods-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-ff03b-d-with-7-digit-value-for-the-export-type--Goods-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-ff03b-d-with-7-digit-value-for-the-export-type--Goods-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc8d021a8d4b3b6549fb-45d63f258c1e1b805f8b",
+              "file": "ADrequestManual/EDPMSnegative/Test02.spec.ts",
+              "line": 38,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the shipping bill date is not in the current business date or past date",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 82079,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T10:59:35.841Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-cd3be-s-not-in-the-current-business-date-or-past-date-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-cd3be-s-not-in-the-current-business-date-or-past-date-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-cd3be-s-not-in-the-current-business-date-or-past-date-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc8d021a8d4b3b6549fb-4870ca12a524f77a7bd6",
+              "file": "ADrequestManual/EDPMSnegative/Test02.spec.ts",
+              "line": 52,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the Form number is not with 8 or 12 digit value for the export type- Software",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 80504,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:00:57.929Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-15200-or-12-digit-value-for-the-export-type--Software-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-15200-or-12-digit-value-for-the-export-type--Software-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-15200-or-12-digit-value-for-the-export-type--Software-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc8d021a8d4b3b6549fb-35bb0e0d73b2ca41bda5",
+              "file": "ADrequestManual/EDPMSnegative/Test02.spec.ts",
+              "line": 61,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the Port code is not with 6 alpha nuumeric value",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 96561,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:02:18.499Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-b7e94-he-Port-code-is-not-with-6-alpha-nuumeric-value-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-b7e94-he-Port-code-is-not-with-6-alpha-nuumeric-value-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-b7e94-he-Port-code-is-not-with-6-alpha-nuumeric-value-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc8d021a8d4b3b6549fb-7ce4f3e1701aa67fa3f9",
+              "file": "ADrequestManual/EDPMSnegative/Test02.spec.ts",
+              "line": 73,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the existing ad code exceeds 7 digits including the prefix 018 ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 87951,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:03:55.084Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-a2f3c-code-exceeds-7-digits-including-the-prefix-018--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-a2f3c-code-exceeds-7-digits-including-the-prefix-018--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-a2f3c-code-exceeds-7-digits-including-the-prefix-018--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc8d021a8d4b3b6549fb-9116a62b07ffae7fb7b5",
+              "file": "ADrequestManual/EDPMSnegative/Test02.spec.ts",
+              "line": 84,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the new ad code is not provided with 4 digits",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 86002,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:05:23.055Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-d3149-n-the-new-ad-code-is-not-provided-with-4-digits-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-d3149-n-the-new-ad-code-is-not-provided-with-4-digits-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test02-Check-tha-d3149-n-the-new-ad-code-is-not-provided-with-4-digits-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc8d021a8d4b3b6549fb-c0e62ed426fbe8ac5ae3",
+              "file": "ADrequestManual/EDPMSnegative/Test02.spec.ts",
+              "line": 95,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ADrequestManual\\EDPMSnegative\\Test03.spec.ts",
+      "file": "ADrequestManual/EDPMSnegative/Test03.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Check that the user is receiving the appropriate validation messages for the attachment.",
+          "file": "ADrequestManual/EDPMSnegative/Test03.spec.ts",
+          "line": 16,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify that the file name should not exceed the maximum limit of 35 characters.",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 74006,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:02:02.890Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-fe172--not-exceed-the-maximum-limit-of-35-characters--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-fe172--not-exceed-the-maximum-limit-of-35-characters--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-fe172--not-exceed-the-maximum-limit-of-35-characters--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92ca0b918d9a3728624e-000a978299a088497648",
+              "file": "ADrequestManual/EDPMSnegative/Test03.spec.ts",
+              "line": 40,
+              "column": 9
+            },
+            {
+              "title": "Verify that the file name should not have special characters.",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 73411,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:03:16.905Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-557dc-e-file-name-should-not-have-special-characters--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-557dc-e-file-name-should-not-have-special-characters--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-557dc-e-file-name-should-not-have-special-characters--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92ca0b918d9a3728624e-488ba81426f564202af6",
+              "file": "ADrequestManual/EDPMSnegative/Test03.spec.ts",
+              "line": 50,
+              "column": 9
+            },
+            {
+              "title": "Verify that the error pop up should be displayed when the user exceeds the  max limit of 5 attachment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 72372,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:04:30.335Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-076c6--the-user-exceeds-the-max-limit-of-5-attachment-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-076c6--the-user-exceeds-the-max-limit-of-5-attachment-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-076c6--the-user-exceeds-the-max-limit-of-5-attachment-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92ca0b918d9a3728624e-88d408e506df81cef607",
+              "file": "ADrequestManual/EDPMSnegative/Test03.spec.ts",
+              "line": 58,
+              "column": 9
+            },
+            {
+              "title": "Verify that the validation message should be displayedif each file  exceeds the size of 3 mb.",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 82524,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:05:42.723Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-4b255-displayedif-each-file-exceeds-the-size-of-3-mb--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-4b255-displayedif-each-file-exceeds-the-size-of-3-mb--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSnegative-Test03-Check-tha-4b255-displayedif-each-file-exceeds-the-size-of-3-mb--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92ca0b918d9a3728624e-3aa420388e2fc87ab88c",
+              "file": "ADrequestManual/EDPMSnegative/Test03.spec.ts",
+              "line": 68,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ADrequestManual\\EDPMSpositive\\adreqmanual.spec.ts",
+      "file": "ADrequestManual/EDPMSpositive/adreqmanual.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Verifying that the user could login to the portal and initiate the AD request successfully",
+          "file": "ADrequestManual/EDPMSpositive/adreqmanual.spec.ts",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verifying that the AD request is created for the export type - Goods and export agency -CUSTOMS",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 159731,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:06:49.169Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSpositive-adreqmanual-Veri-86a09--export-type---Goods-and-export-agency--CUSTOMS-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSpositive-adreqmanual-Veri-86a09--export-type---Goods-and-export-agency--CUSTOMS-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSpositive-adreqmanual-Veri-86a09--export-type---Goods-and-export-agency--CUSTOMS-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "29dc84077ffa795ce8b0-a6ea36f0882ccf17143a",
+              "file": "ADrequestManual/EDPMSpositive/adreqmanual.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "Verify that the AD request is created for the export type - software and export agency- STPI",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 164383,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:09:28.949Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSpositive-adreqmanual-Veri-9e376--export-type---software-and-export-agency--STPI-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSpositive-adreqmanual-Veri-9e376--export-type---software-and-export-agency--STPI-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSpositive-adreqmanual-Veri-9e376--export-type---software-and-export-agency--STPI-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "29dc84077ffa795ce8b0-47aa59fc2d575819b306",
+              "file": "ADrequestManual/EDPMSpositive/adreqmanual.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "Verify that the AD request is created for the export type - Goods and export agency- SEZ ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 171659,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:12:13.391Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSpositive-adreqmanual-Veri-a5938-the-export-type---Goods-and-export-agency--SEZ--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSpositive-adreqmanual-Veri-a5938-the-export-type---Goods-and-export-agency--SEZ--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\ADrequestManual-EDPMSpositive-adreqmanual-Veri-a5938-the-export-type---Goods-and-export-agency--SEZ--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "29dc84077ffa795ce8b0-66ffe3be3b5ae104ea51",
+              "file": "ADrequestManual/EDPMSpositive/adreqmanual.spec.ts",
+              "line": 95,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FileUpload\\fileUpload.spec.ts",
+      "file": "FileUpload/fileUpload.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Verify that the user may initiate an ad transfer request using the file upload option.",
+          "file": "FileUpload/fileUpload.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify that the user could download the file upload template",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 67768,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "C:\\Users\\blues\\AppData\\Local\\Temp\\playwright-artifacts-jcYMF5\\02471c1c-6394-4e48-8c86-1031d9aee860\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:07:05.359Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-9f75c-he-user-could-download-the-file-upload-template-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-9f75c-he-user-could-download-the-file-upload-template-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-9f75c-he-user-could-download-the-file-upload-template-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-1cfc04aff80c07c17d9d",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 35,
+              "column": 9
+            },
+            {
+              "title": "verify that the user should not be able to upload the format of PDF in file upload.",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 76284,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:08:13.135Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-a5fae-ble-to-upload-the-format-of-PDF-in-file-upload--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-a5fae-ble-to-upload-the-format-of-PDF-in-file-upload--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-a5fae-ble-to-upload-the-format-of-PDF-in-file-upload--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-bb4b2accee6c522f18a0",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 41,
+              "column": 9
+            },
+            {
+              "title": "Verify that the user is notified with the proper validation for the duplicate record.",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 84723,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:09:29.444Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-7e146-the-proper-validation-for-the-duplicate-record--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-7e146-the-proper-validation-for-the-duplicate-record--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-7e146-the-proper-validation-for-the-duplicate-record--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-039ebd4ca94e7a1f59c7",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 49,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the Port code is not with 6 alpha nuumeric value ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 75273,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:10:54.206Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-ed4ff-e-Port-code-is-not-with-6-alpha-nuumeric-value--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-ed4ff-e-Port-code-is-not-with-6-alpha-nuumeric-value--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-ed4ff-e-Port-code-is-not-with-6-alpha-nuumeric-value--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-c57c7e874a510a869c24",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 58,
+              "column": 9
+            },
+            {
+              "title": "Verify that the user is notified with the proper validation message when the export type field is left blank",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 79524,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:12:09.495Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-4d459-essage-when-the-export-type-field-is-left-blank-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-4d459-essage-when-the-export-type-field-is-left-blank-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-4d459-essage-when-the-export-type-field-is-left-blank-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-e97e16f880c6a8159a52",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 66,
+              "column": 9
+            },
+            {
+              "title": "Verify that the user is notified with the proper validation message when the export agency is left blank.",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 86215,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:13:29.030Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-4af89-n-message-when-the-export-agency-is-left-blank--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-4af89-n-message-when-the-export-agency-is-left-blank--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-4af89-n-message-when-the-export-agency-is-left-blank--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-e72293d6069a04140849",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 73,
+              "column": 9
+            },
+            {
+              "title": "verify that the user is notified when the shipping bill number is not provided with 7 digit value for the export type- Goods ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 61621,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:14:55.256Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-b7ebb--with-7-digit-value-for-the-export-type--Goods--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-b7ebb--with-7-digit-value-for-the-export-type--Goods--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-b7ebb--with-7-digit-value-for-the-export-type--Goods--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-95c6a75e76fe3d08afd2",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 83,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the shipping bill date is not in the current business date or past date",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 68020,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:15:56.884Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-040ab-s-not-in-the-current-business-date-or-past-date-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-040ab-s-not-in-the-current-business-date-or-past-date-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-040ab-s-not-in-the-current-business-date-or-past-date-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-56c6858b7eeb7a0555c1",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 91,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the Form number is not with 8 or 12 digit value for the export type- Software",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 57584,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:17:04.915Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-e8881-or-12-digit-value-for-the-export-type--Software-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-e8881-or-12-digit-value-for-the-export-type--Software-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-e8881-or-12-digit-value-for-the-export-type--Software-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-85053a59c91987f78a83",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 103,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the existing ad code exceeds 7 digits including the prefix 018",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 56499,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:18:02.511Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-4efcd--code-exceeds-7-digits-including-the-prefix-018-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-4efcd--code-exceeds-7-digits-including-the-prefix-018-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-4efcd--code-exceeds-7-digits-including-the-prefix-018-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-bd1cd90b737be145f69f",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 111,
+              "column": 9
+            },
+            {
+              "title": "Verify that the system shows the proper validation message when the new ad code is not provided with 4 digits",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 63755,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:18:59.013Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-d3ff1-n-the-new-ad-code-is-not-provided-with-4-digits-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-d3ff1-n-the-new-ad-code-is-not-provided-with-4-digits-chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-d3ff1-n-the-new-ad-code-is-not-provided-with-4-digits-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-4ccc921473c14822bad9",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 119,
+              "column": 9
+            },
+            {
+              "title": "Verify that the user could download and upload the ad transfer template with the valid records.",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 400000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 84917,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-19T11:20:02.796Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-93f87-he-ad-transfer-template-with-the-valid-records--chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-93f87-he-ad-transfer-template-with-the-valid-records--chromium\\trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright\\test-results\\FileUpload-fileUpload-Verify-that-the-user-may-93f87-he-ad-transfer-template-with-the-valid-records--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9e2bfce55b7f589a1a53-2ceec37526827081faab",
+              "file": "FileUpload/fileUpload.spec.ts",
+              "line": 127,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
