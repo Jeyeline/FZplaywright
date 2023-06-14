@@ -16,7 +16,7 @@
     "@playwright/test": "^1.33.0",
     "@types/jest": "^29.5.1",
     "allure-playwright": "^2.2.1",
-    "experimental-allure-playwright": "0.0.3",
+
     "nodemailer": "^6.6.3",
     "tesseract.js": "^2.1.5",
     "ts-node": "^10.9.1",
