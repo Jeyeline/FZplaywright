@@ -6,7 +6,7 @@
     "scripts": { 
 		"type": "module",
     "posttest": "npx ts-node src/helper/report.ts",
-    "test": "npx playwright test"
+    "test": "test"
     },
     "devDependencies": {
 	
