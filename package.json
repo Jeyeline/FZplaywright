@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test1": "cucumber-js test",
-    "type": "module",
+       "type": "module",
     "posttest": "npx ts-node src/helper/report.ts",
     "test": "jest"
   },
