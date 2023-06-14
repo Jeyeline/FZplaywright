@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": { 
-		type": "module",
+		"type": "module",
     "posttest": "npx ts-node src/helper/report.ts",
     "test": "npx playwright test"
     },
